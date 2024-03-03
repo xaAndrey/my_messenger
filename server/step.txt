@@ -1,0 +1,12 @@
+npm init -y
+
+pnpm add express @prisma/client cors dotenv express-async-errors zod
+
+pnpm add -D typescript tsx prisma @types/node @types/express
+
+pnpm add http-errors
+
+
+npx tsc --init 
+
+npx prisma init
